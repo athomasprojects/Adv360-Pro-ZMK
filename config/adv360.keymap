@@ -136,7 +136,7 @@ acaret: at_caret {
     #binding-cells = <0>;
     bindings = <&kp AT>, <&kp CARET>;
     mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-};V
+};
     };
 
   keymap {
