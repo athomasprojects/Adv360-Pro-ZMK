@@ -79,11 +79,11 @@
 
         layer_colemak_dh {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans
- &trans   &kp Q   &kp W   &kp F   &kp P   &none            &trans  &trans   &kp J   &kp L   &kp U   &kp Y  &kp MINUS  &trans
- &trans   &kp A   &kp R   &kp S   &kp T   &kp G            &trans  &trans  &trans                  &trans     &trans  &trans   &kp M   &kp N   &kp E   &kp I   &kp O  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans
+     &none   &none   &none           &none            &none          &none               &tog 4           &mo 3      &none      &none      &none         &none           &none          &none
+   &kp TAB   &kp Q   &kp W           &kp F            &kp P          &kp B             &kp APOS  &macro_kinesis      &kp J      &kp L      &kp U         &kp Y       &kp MINUS  &kp BACKSLASH
+   &kp ESC   &kp A   &kp R           &kp S            &kp T          &kp G              &kp DQT       &kp LCTRL   &kp LALT                        &kp LEFT_WIN       &kp RCTRL            &mo   &kp M   &kp N      &kp E    &kp I   &kp O   &kp SEMI
+ &kp LSHFT   &kp Z   &kp X           &kp C            &kp D          &kp V               &trans          &trans    &kp ESC     &trans     &trans     &kp PG_UP          &trans         &trans   &kp K   &kp H  &kp COMMA  &kp DOT   &none  &kp RSHFT
+     &mo 2   &none   &none  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE            &kp LSHFT         &kp DEL  &kp PG_DN  &kp ENTER  &kp SPACE  &kp UP_ARROW  &kp DOWN_ARROW       &kp FSLH   &none   &mo 2
             >;
         };
 
