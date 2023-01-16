@@ -182,8 +182,8 @@
         &ppipe    &pkp_n1   &lkp_n2  &lkp_n3  &lkp_n4    &akp_n5 &tog 4                                                                          &mo 3           &ekp_n6  &rkp_n7  &rkp_n8   &rkp_n9   &skp_n0   &eprcnt
         &kp TAB   &kp Q     &kp W    &kp F    &kp P      &kp B   &kp APOS                                                                        &macro_kinesis  &kp J    &kp L    &kp U     &kp Y     &kp MINUS &kp BSLH
         &kp ESC   &kp A     &kp R    &kp S    &kp T      &kp G   &kp DQT           &kp LCTRL  &kp LALT             &kp LGUI  &kp RCTRL           &none           &kp M    &kp N    &kp E     &kp I     &kp O     &kp SEMI
-        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp D            &none    &none      &kp HOME &none &none &kp PG_UP &none     &none                     &kp K    &kp H    &kp COMMA &kp DOT   &kp none  &kp RSHFT
-        &mo 2     &dgrave   &ggrave  &kp LEFT &kp RIGHT                   &kp BKSP &kp DEL    &kp END              &kp PG_DN &kp ENTER &kp SPACE                          &kp UP   &kp DOWN  &kp FSLH  &acaret   &mo 2
+        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp D            &none    &none      &kp HOME &none &none &kp PG_UP &none     &none                     &kp K    &kp H    &kp COMMA &kp DOT   &none     &kp RSHFT
+        &mo 2     &dgrave   &ggrave  &kp LEFT &kp RIGHT                   &kp BSPC &kp DEL    &kp END              &kp PG_DN &kp ENTER &kp SPACE                          &kp UP   &kp DOWN  &kp FSLH  &acaret   &mo 2
       >;
     };
 };
