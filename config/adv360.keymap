@@ -5,10 +5,8 @@
 #include <dt-bindings/zmk/backlight.h>
 
 #define HYP LS(LC(LA(LGUI)))
-#define HYPER(key) LS(LC(LA(LG(key))))
 
 #define MEH LS(LC(LA))
-#define MEHKEY (key) LA(LC(LS(key)))
 
 / {
   behaviors {
