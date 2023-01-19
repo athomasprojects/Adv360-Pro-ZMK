@@ -154,7 +154,7 @@
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                      &macro_kinesis &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
         &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none    &kp LCTRL &kp LALT                    &kp LGUI  &kp RCTRL                   &none &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B        &none     &none     &kp HOME &none &none &kp PG_UP &none     &none            &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT               &kp BKSP  &kp DEL   &kp END              &kp PG_DN &kp ENTER &kp SPACE               &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2   
+        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT               &kp BSPC  &kp DEL   &kp END              &kp PG_DN &kp ENTER &kp SPACE               &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2   
             >;
         };
 
@@ -164,7 +164,7 @@
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                                        &none &kp Y  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &kp BSLH
         &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none          &kp LCTRL &kp LALT             &kp LGUI  &kp RCTRL            &none &kp H  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B        &none    &none     &kp HOME &none &none &kp PG_UP &none     &none            &kp N  &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_ENTER    &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT               &kp BKSP &kp DEL   &kp END              &kp PG_DN &kp ENTER &kp KP_N0               &kp UP     &kp DOWN     &kp KP_DOT    &kp RBKT         &mo 2
+        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT               &kp BSPC &kp DEL   &kp END              &kp PG_DN &kp ENTER &kp KP_N0               &kp UP     &kp DOWN     &kp KP_DOT    &kp RBKT         &mo 2
       >;
     };
 
@@ -187,23 +187,25 @@
         &none &none        &none        &bl BL_INC   &bl BL_DEC                           &rgb_ug RGB_TOG &bl BL_TOG &none                 &none      &bl BL_TOG &rgb_ug RGB_TOG                      &bl BL_INC   &bl BL_DEC   &none        &none        &none
       >;
     };
-        colemak_dh {
-      bindings = <
-        &ppipe    &pkp_n1     &lkp_n2   &lkp_n3  &lkp_n4    &akp_n5  &tog 4                                                                                &mo 3     &ekp_n6  &rkp_n7   &rkp_n8     &rkp_n9    &skp_n0    &eprcnt
+    
+        layer_colemak_dh {
+            bindings = <
+            &ppipe    &pkp_n1     &lkp_n2   &lkp_n3  &lkp_n4    &akp_n5  &tog 4                                                                                &mo 3     &ekp_n6  &rkp_n7   &rkp_n8     &rkp_n9    &skp_n0    &eprcnt
         &kp TAB   &kp Q       &kp W     &kp F    &kp P      &kp B    &kp APOS                                                                              &kp CAPS  &kp J    &kp L     &kp U       &kp Y      &kp MINUS  &bhash
         &kp ESC   &kp A       &kp R     &kp S    &kp T      &kp G    &kp DQT            &kp LCTRL  &kp LALT               &kp LGUI   &kp RCTRL             &tog 5    &kp M    &kp N     &kp E       &kp I      &kp O      &kp SEMI
         &kp LSHFT &kp Z       &kp X     &kp C    &kp D      &kp V             &none     &none      &kp MEH   &none &none  &kp PG_UP  &none      &none                &kp K    &kp H     &kp COMMA   &kp DOT    &kp FSLH   &kp RSHFT
-        &mo 2     &dgrave     &ggrave   &kp LEFT &kp RIGHT                    &kp BKSP  &kp LSHFT  &mo 5                  &kp PG_DN  &kp ENTER  &kp SPACE                     &kp UP    &kp DOWN    &kp HYP    &acaret    &mo 2
-      >;
-    };  
-        vim_nav {
-      bindings = <
-        &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                                       &trans  &kp N6  &kp N7  &kp N8  &kp N9   &kp N0  &trans
+        &mo 2     &dgrave     &ggrave   &kp LEFT &kp RIGHT                    &kp BSPC  &kp LSHFT  &mo 5                  &kp PG_DN  &kp ENTER  &kp SPACE                     &kp UP    &kp DOWN    &kp HYP    &acaret    &mo 2
+            >;
+        };
+        
+        layer_vim_nav {
+            bindings = <
+            &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                                       &trans  &kp N6  &kp N7  &kp N8  &kp N9   &kp N0  &trans
         &trans  &none   &trans  &trans  &trans  &trans  &trans                                                        &trans  &none   &none   &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans &trans             &trans &trans        &trans  &trans  &kp H   &kp J   &kp K   &kp L   &trans
         &tranS  &trans  &trans  &trans  &trans  &trans        &none  &none  &trans &none &none &trans &none  &none           &none   &none   &trans  &trans   &trans  &trans
         &trans  &trans  &trans  &trans  &trans                &trans &trans &trans             &trans &trans &trans                  &trans  &trans  &trans   &trans  &trans
-       >;
+            >;
+        };
     };
-  };
 };
