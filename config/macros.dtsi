@@ -38,10 +38,6 @@ macro_meh: macro_meh{
 compatible = "zmk,behavior-macro";
 label = "macro_meh";
 #binding-cells = <0>;
-wait-ms = <40>;
 bindings
-    = <&sk LSHFT &sk LALT &sk LCTRL>
-    //, <&macro_press   &kp LSHFT>
-    //, <&macro_press   &kp LCTRL>
-    ;
+    = <&sk LCTRL> <&sk LALT> <&sk LSHFT>;
 };
