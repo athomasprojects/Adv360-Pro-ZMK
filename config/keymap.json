@@ -4,11 +4,11 @@
   "layout": "LAYOUT",
   "layer_names": [
     "base",
-    "keypad",
+    "vim_nav",
+    "keypad",    
     "fn",
     "mod",
-    "colemak_dh",
-    "vim_nav"
+    "qwerty"
   ],
   "layers": [
     [
