@@ -39,5 +39,5 @@ compatible = "zmk,behavior-macro";
 label = "macro_meh";
 #binding-cells = <0>;
 bindings
-    = <&sk LCTRL> <&sk LALT> <&sk LSHFT>;
+    = <&sk LCTRL>, <&sk LALT>, <&sk LSHFT>;
 };
