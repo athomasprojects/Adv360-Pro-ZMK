@@ -155,11 +155,11 @@
 
         layer_vim_nav {
             bindings = <
-        &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                                        &trans  &kp N6  &kp N7  &kp N8  &kp N9   &kp N0  &trans
-        &trans  &none   &trans  &trans  &trans  &trans  &trans                                                        &trans  &none   &none   &none   &kp U    &none   &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &kp DEL       &trans &trans             &trans &trans         &trans  &none   &kp H   &kp J   &kp K    &kp L   &trans
-        &trans  &trans  &trans  &trans  &trans  &trans        &none  &none  &trans &none &none &trans &none  &none            &none   &none   &trans  &trans   &trans  &trans
-        &trans  &trans  &trans  &trans  &trans                &trans &trans &trans             &trans &trans &trans                   &trans  &trans  &trans   &trans  &trans
+        &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                                        &trans  &kp N6     &kp N7  &kp N8  &kp N9   &kp N0  &trans
+        &trans  &none   &trans  &trans  &trans  &trans  &trans                                                        &trans  &kp TILDE  &none   &kp U   &kp Y    &none   &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &kp DEL       &trans &trans             &trans &trans         &trans  &none      &kp H   &kp J   &kp K    &kp L   &trans
+        &trans  &trans  &trans  &trans  &trans  &trans        &none  &none  &trans &none &none &trans &none  &none            &none      &none   &trans  &trans   &trans  &trans
+        &trans  &trans  &trans  &trans  &trans                &trans &trans &trans             &trans &trans &trans                      &trans  &trans  &trans   &trans  &trans
             >;
         };
 
